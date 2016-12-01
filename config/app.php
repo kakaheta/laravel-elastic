@@ -178,6 +178,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // laravel elasticsearch
+        Sleimanx2\Plastic\PlasticServiceProvider::class,
     ],
 
     /*
